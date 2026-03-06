@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>ETA Calculator</h1>
+
+        <div class="input-section">
+            <label for="distanceInput">Enter distance (miles):</label>
+            <br/>
+            <input type="number" id="distanceInput" placeholder="Enter distance (miles)">
+            <br/>
+
+            <label for="speedInput">Enter speed (mph):</label>
+            <br/>
+            <input type="number" id="speedInput" placeholder="Enter speed (mph)">
+            <br/>
+
+            <button onclick="calculateETA()">Calculate ETA</button>
+        </div>
+
+        <div id="result"></div>
+    </div>
+</body>
+</html>
